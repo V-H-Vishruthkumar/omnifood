@@ -1,0 +1,18 @@
+/* rem and em do not depend on html fontsize in media
+1rem=1em,=16px */
+/* we use rem because we have some bug regarding rem in some browser */
+/* screen view divide by 16px should be used  */
+
+/* below 1344px smaller pc*/
+
+@media(max-width:84em){
+    .hero{
+        max-width: 120rem;
+    }
+    .priheading{
+        font-size: 4.4rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
